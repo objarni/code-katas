@@ -12,7 +12,7 @@ unit test practices such as TDD, Test-Driven Development.
 Organization
 ------------
 
-Under Problems/, you will find problems, in no particular
+Under `start-points`, you will find problems, in no particular
 order. Under each problem directory in Problems, there will
 be a separate folder for each relevant programming language.
 
