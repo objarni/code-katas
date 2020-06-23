@@ -29,11 +29,8 @@ stones:
   - practicing Arrange-Act-Assert
   - practicing the Red-Green-Refactor cycle
   - practicing 'what' instead of 'how' thinking
-  - practicing KISS and YAGNI principles
-  - practicing 'results ordered coding'
+  - practicing 'results ordered coding' (assert first or bottom-up test writing)
   - practicing refactorings of different kinds
-  - practicing SOLID principles
-  - practicing design patterns
 
 Hopefully, the Code Katas in this repo will cover
 all of those areas!
