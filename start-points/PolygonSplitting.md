@@ -11,8 +11,8 @@ The input to the algorithm is a polygon and a set of points, and the output is a
 
 For example, given a single-line polygon from (0, 0) to (50, 0), and a "split point" at (25, 0), the algorithm would output two polygons:
 
-   a polygon from point (0, 0) to point (25, 0)
-   a polygon from point (25, 0) (50, 0)
+   * a polygon from point (0, 0) to point (25, 0)
+   * a polygon from point (25, 0) (50, 0)
 
 The difficulty with these numerical-geometrical algorithms is thinking about how to verify the algorithms behaviour with all the "fuzzyness" involved here:
 
