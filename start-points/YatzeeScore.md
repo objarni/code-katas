@@ -30,4 +30,12 @@ Notice two things with this report:
 (1) is a feature that is not implemented yet.
 (2) is a bug.
 
-In this excercise, use approval testing to confidently fix (1) and (2).
+
+Possible excercises on this problem
+-----------------------------------
+
+- writing a unit test the reproduces a bug
+- adding approval test 'excercise' function
+- refactoring noisy code with safe refactorings
+- covering code with tests
+- refactoring with non-safe refactorings after full coverage
