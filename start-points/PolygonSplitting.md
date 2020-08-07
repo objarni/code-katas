@@ -1,9 +1,9 @@
 Polygon Splitting
 =================
 
-In 2D CAD-software, a lot of tools are about modifying polygons in different ways - adding segments, joining polygons, cleaning them up etc.
+In 2D CAM-software (Computer Aided Machinery), a lot of tools are about modifying polygons in different ways - adding segments, joining polygons, cleaning them up etc.
 
-One specific algorithm is about splitting a polygon up into several polygons, at certain points.
+One specific algorithm, which is re-used in a lot of other algorithms so very central for such software, splits a polygon into several polygons at certain given points.
 
 In general, polygons can be made up of both straight line segments, circular arcs and even more advanced geometry like bezier splines. However, for this kata, that complexity can be ignored; just think of polygons as made up of straight lines from point A to point B to point C and so on.
 
@@ -14,9 +14,10 @@ For example, given a single-line polygon from (0, 0) to (50, 0), and a "split po
    * a polygon from point (0, 0) to point (25, 0)
    * a polygon from point (25, 0) (50, 0)
 
-The difficulty with these numerical-geometrical algorithms is thinking about how to verify the algorithms behaviour with all the "fuzzyness" involved here:
+The difficulty with these numerical-geometrical algorithms is thinking about how to verify the algorithms behaviour with all the "fuzzyness" and other unclarities involved here:
 
  - round-off errors from floating point arithmetic (how close is close enough for a point to "split" the polygon?)
  - what to do if input point is on end point or start point of polygon?
  - what if several points are very close to each other?
-
+ - what to do with points that are nowhere ner the polygon?
+ 
