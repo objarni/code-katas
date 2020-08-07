@@ -24,7 +24,7 @@ Chance: 5
 
 Notice two things with this report:
 
-  1. It does not contain a line for "YATZEE" score
+  1. It does not contain a line for "YATZEE" score even though the user got it (5 of a kind is YATZEE, and it is always scored 50)
   2. The Full House score is incorrect; 5 dices of the same value is not a full house in Yatzee, so the score should be 0
 
 (1) is a feature that is not implemented yet.
